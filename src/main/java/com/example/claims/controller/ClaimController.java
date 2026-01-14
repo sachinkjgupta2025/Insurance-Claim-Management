@@ -13,6 +13,6 @@ public class ClaimController {
     @GetMapping("/claim")
     public String claim() {
         claimService.initiateClaim();
-        return "Claim Initiated! WITH GIT COMMIT";
+        return "Claim Initiated! WITH GIT COMMIT with Jenkins at 15 jan 2026";
     }
 }
