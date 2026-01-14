@@ -13,6 +13,6 @@ public class ClaimController {
     @GetMapping("/claim")
     public String claim() {
         claimService.initiateClaim();
-        return "Claim Initiated!";
+        return "Claim Initiated! WITH GIT COMMIT";
     }
 }
